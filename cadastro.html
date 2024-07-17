@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra-se</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <form action="" method="post" autocomplete="off" class="form">
+        <fieldset class="form_fieldset">
+            <legend class="form_tittle">Cadastra-se</legend>
+
+            <label for="user" class="form_label">Usuário</label>
+            <input type="text" name="user" id="user" placeholder="Usuário" required class="form_input">
+
+            <label for="email" class="form_label">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite aqui um email" required class="form_input">
+
+            <label for="pass" class="form_label">Senha</label>
+            <input type="password" name="pass" id="pass" placeholder="Senha" required class="form_input">
+
+            <div class="form__action">
+                <input type="submit" value="Cadastra-se" class="btn btn-primary">
+                <p class="form__action__aside">
+                    Já possui cadastro? <a href="index.html">Faça login</a>
+                </p>
+            </div>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
